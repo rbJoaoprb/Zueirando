@@ -5,7 +5,7 @@ btnSim.addEventListener("click", () => {
   window.location.href = "sim.html";
 });
 
-btnNao.addEventListener("mouseenter", () => {
+btnNao.addEventListener("mousedown", () => {
   const container = document.querySelector(".botoes");
   const maxWidth = container.clientWidth - btnNao.offsetWidth;
   const maxHeight = container.clientHeight - btnNao.offsetHeight;
